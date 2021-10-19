@@ -1,0 +1,21 @@
+El proyecto consiste en:
+Una pagina web sencilla con una interfaz para adminitrador que maneja los datos en una BBDD.
+Un panel para controlar el acceso del administrador o administradores. Añadir, modificar y eliminar.
+Funcionalidades de añadir productos y catalogarlos. Añadirlos, modificarlos y eliminarlos.
+Incluir una descripción e imagen de los productos en la BBDD.
+
+También una interfaz para el usuario. No es necesario registro.
+Vista de productos por categorías. Incluye busqueda de productos.
+Funcion de pedidos. Control de este.
+
+Requisitos 
+Srvidor Local
+Software gestion de BBDD MYSQL (Xampp, wampp).
+Un entorno de desarrollo (Visual Estudio, eclipse, sublime text)
+Leguaje PHP. Facilitará el flujo de consultas.
+HTML y CSS.
+Javascript. Visualización cliente.
+
+Restricciones
+Restricción de tiempo (Proyecto en solitario)
+Restricción de alcance (Si el trabajo final será funcional manteniendo su calidad)
