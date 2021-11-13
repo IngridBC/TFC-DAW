@@ -7,7 +7,6 @@
         //redirect to login page with message 
         $_SESSION['no-login-message']= "<div class='error text-center'> Inicie sesión para acceder al panel Admin. </div> <br>";
             //Redirect user to home page Dashboard
-        header('location:'.SITEURL.'admin/login.php'); 
-         
+        header('location:'.SITEURL.'admin/login.php');          
     }
 ?>

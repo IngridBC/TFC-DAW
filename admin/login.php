@@ -8,35 +8,36 @@
     <title>LOGIN- BAKERY SYSTEM</title>
 </head>
 <body>
-    <div class="login">
-        <h1 class="text-center">LOGIN</h1>
-            <br/><br/>
-
-            <?php
-                if(isset($_SESSION['login'])){
-                    echo $_SESSION['login']; //Displaying session Message
-                    unset($_SESSION['login']); //Removing Session Message
-                }
-                if(isset($_SESSION['no-login-message'])){
-                    echo $_SESSION['no-login-message']; //Displaying session Message
-                    unset($_SESSION['no-login-message']); //Removing Session Message
-                }
-            ?>
-            <!-- Login form starts here--> 
-            <form action="" method="POST" class="text-center">
-                <label for="">Username:</label> <br>
-                <input type="text" name="username" placeholder="Enter username"><br><br>
-                <label for="">Password:</label><br>
-                <input type="password" name="password" placeholder="Enter password"><br><br>
-                <input type="submit" name="submit" value="Login" class="btn-primary"><br><br>
-                <br>
-            </form>
-            <!-- Login form ends here--> 
-        <p class="text-center"> Created by - <a href="#">INGRID BUITRAGO</a></p>
+    <div class="login-container">
+        <div class="login">       
+                <?php
+                    if(isset($_SESSION['login'])){
+                        echo $_SESSION['login']; //Displaying session Message
+                        unset($_SESSION['login']); //Removing Session Message
+                    }
+                    if(isset($_SESSION['no-login-message'])){
+                        echo $_SESSION['no-login-message']; //Displaying session Message
+                        unset($_SESSION['no-login-message']); //Removing Session Message
+                    }
+                ?>
+            <div class="space-login">
+                <div class="login-icon"> <img src="../images/user.png" alt=""></div>
+                <div class="title-login"><h1 class="title-sect text-center">ACCESO </h1><h3 class="title-sect text-center">Bakery Co</h3></div>
+                
+                <!-- Login form starts here--> 
+                <form action="" method="POST" class="text-center">                    
+                    <input class="input-info" type="text" name="username" placeholder="Usuario">                    
+                    <input class="input-info" type="password" name="password" placeholder="Contraseña">
+                    <input class="button-login" type="submit" name="submit" value="Login" class="btn-signUp">
+                    <br>
+                </form>
+                <!-- Login form ends here--> 
+                <div class="label-login text-center"> <label> Bakery Co.&#169 Property </label></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
-
 <?php
     if(isset($_POST['submit'])){
         //1. GEt the data from the form 
@@ -59,14 +60,14 @@
         if($count==1){
             //user avalaible 
             //Login with the user and password 
-            $_SESSION['login']= "<div class='success'> Login Succesful.</div><br>";
+            $_SESSION['login']= "<div class='success'>Acceso permitido.</div><br/>";
             $_SESSION['user']= $username;// to ckeck when the user is logged and not and she logout
             //Redirect user to home page Dashboard
             header('location:'.SITEURL.'admin/');
         }else{
             //User not avalaible  
             //Login with the user and password 
-            $_SESSION['login']= "<div class='error text-center'> Username or Password do not match. </div> <br>";
+            $_SESSION['login']= "<label class='error text-center'> Usuario/Contraseña no coinciden. </label>";
             //Redirect user to home page Dashboard
             header('location:'.SITEURL.'admin/login.php');  
         }
