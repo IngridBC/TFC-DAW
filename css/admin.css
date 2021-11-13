@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearFix{
+    flex: none;
+    clear: both;
+}
+
+/* CSS for table admin*/
+.tbl-full{
+    width: 100%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.title-section{
+    text-decoration: underline;
+}
+
+.btn-update{
+    width: 80px;
+    background-color: #1e90ff;
+    border-radius:10px;
+    color: white;
+    padding: 1%;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.btn-update:hover{
+    width: 100px;
+    background-color: #0C18E0;
+}
+
+.btn-primary{
+    /*background-color: #1e90ff;*/
+    background-color:black;
+    border-radius:10px;
+    padding: 1%;
+    color: #D4AF37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #D4AF37;
+    color: black;
+}
+
+.btn-secondary{
+    /*background-color: #7bed9f;*/
+    background-color: #0CE01E;
+    padding: 1%;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-secondary:hover{
+    background-color: #7BE508;
+    /*background-color: #2ed573;*/
+}
+
+.btn-danger{
+    background-color: #F40F0F;
+    /*background-color: #ff6b81;*/
+    border-radius: 10px;
+    padding: 1%;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+/** CCS message for deleting admin **/
+.success{
+    color: #27ae60;
+    font-weight: bold;
+}
+.error{
+    color: #ff4757;
+    font-weight: bold;
+}
+
+/*TABLE ADD ADMIN INSIDE FORM*/
+.tbl-30{
+    width: 30%;
+}
+
+/*CSS for menu*/
+.menu{
+    background-color:  #AF0B4B;
+    /*border-bottom: 1px solid black;*/
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu ul li a:hover ,.menu ul li a:focus{
+    color: black;
+}
+
+
+/** CSS for main-content **/
+.main-content{
+    /*margin: 1% 0;*7*/
+    width: 100%;
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.title-main{
+    text-decoration: underline;
+    /*background-color: #AF0B4B;*/
+}
+
+.container-data{ 
+    border-radius: 30px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-4{
+    width: 180px;
+    height: 180px;
+    line-height: 50px;
+    border-radius: 200px;
+    border: 10px solid black;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+}
+
+/** CSS for footer*/
+
+.footer{
+    width: 100%;
+    background-color: #AF0B4B;
+    color:white;
+    text-align: center;
+    position: fixed;
+    display: bottom;  
+}
+
+.footer .footer-info{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/** CSS for login**/
+
+.login-container{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("../images/4606757.jpg");
+    background-size: cover;
+}
+
+.login{
+    background-color: #fff;
+    border:4px solid black;
+    width: 20%;
+    height: 65%;
+    margin: 5% auto;
+    padding: 1.5%;
+}
+
+.login-icon{
+    width: 40%;
+    height: 25%;
+    margin: auto;
+    /*background:url(../images/login-icon.jpg);
+    background-size: cover;*/
+}
+
+.space-login img{
+    width: 100%;
+}
+
+.title-sect{
+    width: 100%;
+    height: 10%; 
+    color: #fff;
+    background-color: #AF0B4B;
+    padding-top: 5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title-login{
+    margin-bottom: 5%;
+    border:4px solid black;
+}
+
+.input-info{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 2px solid black;
+    outline: none;
+}
+
+.button-login{
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    background-color: #AF0B4B;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.label-login{
+    width: 100%;
+    margin: 1%;
+}
+
+.label-login label{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bolder;
+}
+
+
