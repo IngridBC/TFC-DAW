@@ -54,7 +54,6 @@ table tr td {
 }
 
 .btn-primary{
-    /*background-color: #1e90ff;*/
     background-color:black;
     border-radius:10px;
     padding: 1%;
@@ -69,7 +68,6 @@ table tr td {
 }
 
 .btn-secondary{
-    /*background-color: #7bed9f;*/
     background-color: #0CE01E;
     padding: 1%;
     color: black;
@@ -80,7 +78,7 @@ table tr td {
 
 .btn-secondary:hover{
     background-color: #7BE508;
-    /*background-color: #2ed573;*/
+    
 }
 
 .btn-danger{
@@ -115,7 +113,6 @@ table tr td {
 /*CSS for menu*/
 .menu{
     background-color:  #AF0B4B;
-    /*border-bottom: 1px solid black;*/
 }
 
 .menu ul {
@@ -140,7 +137,7 @@ table tr td {
 
 /** CSS for main-content **/
 .main-content{
-    /*margin: 1% 0;*7*/
+    
     width: 100%;
     background-color: #f1f2f6;
     padding: 3% 0;
@@ -192,7 +189,7 @@ table tr td {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: url("../images/4606757.jpg");
+    background: url("../images-videos/background-admin.jpg");
     background-size: cover;
 }
 
@@ -209,8 +206,8 @@ table tr td {
     width: 40%;
     height: 25%;
     margin: auto;
-    /*background:url(../images/login-icon.jpg);
-    background-size: cover;*/
+    background:url(../images-videos/user.png);
+    background-size: cover;
 }
 
 .space-login img{
