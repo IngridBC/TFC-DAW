@@ -15,7 +15,7 @@
         if($file_name != ""){
 
             //Image avalaible --> Remove it 
-            $path="../images/category/".$file_name;
+            $path="../images-videos/category/".$file_name;
 
             //Remove the image 
             $remove=unlink($path);

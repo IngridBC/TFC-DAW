@@ -53,7 +53,7 @@
                             <?php
                                 if($current_image!=""){//display iamge 
                             ?>
-                            <img src="<?php echo SITEURL; ?>images/category/<?php echo $current_image;?>" width="100px">
+                            <img src="<?php echo SITEURL; ?>images-videos/category/<?php echo $current_image;?>" width="100px">
                             <?php
                                 }else{//Dispaly message
                                     echo "<div class='error'>Imagen no añadida.</div> ";
@@ -62,7 +62,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td> <label>Nueva iamgen:</label></td>
+                        <td> <label>Nueva imagen:</label></td>
                         <td><input type="file" name="image"></td>
                     </tr>
                     <tr>
@@ -112,7 +112,7 @@
                             //Rename the file folloring Food_category 
                             $file_name="Food_category_".rand(00,99).'.'.$ext;
                             $source_path=$_FILES['image']['tmp_name'];
-                            $image_folder = "../images/category/";
+                            $image_folder = "../images-videos/category/";
                             $movefile=move_uploaded_file($source_path, $image_folder .$file_name);
 
                             if($movefile==false){
@@ -124,7 +124,7 @@
 
                             //Removing the image 
                             if($current_image != ""){
-                                $remove_path="../images/category/".$current_image;
+                                $remove_path="../images-videos/category/".$current_image;
                                 $remove=unlink($remove_path);
                                 //echo $remove;
                                 //die();

@@ -88,7 +88,7 @@
                                             //check the image is avalaible or not 
                                             if($file_name != ""){//display image                                                
                                         ?>
-                                            <img src="<?php echo SITEURL; ?>images/category/<?php echo $file_name; ?>" width="100px" >
+                                            <img src="<?php echo SITEURL; ?>images-videos/category/<?php echo $file_name; ?>" width="100px" >
                                         <?php
 
                                             }else{

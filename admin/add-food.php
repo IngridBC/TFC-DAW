@@ -130,7 +130,7 @@
                         $file_name="Food_name_".rand(00,99).'.'.$file_extension;
 
                         $source_path=$_FILES['image']['tmp_name'];
-                        $image_folder = "../images/food/";
+                        $image_folder = "../images-videos/food/";
                         $movefile=move_uploaded_file($source_path, $image_folder .$file_name);
 
                         if($movefile==false){

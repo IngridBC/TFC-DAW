@@ -21,7 +21,7 @@
                     }
                 ?>
             <div class="space-login">
-                <div class="login-icon"> <img src="../images/user.png" alt=""></div>
+                <div class="login-icon"> </div>
                 <div class="title-login"><h1 class="title-sect text-center">ACCESO </h1><h3 class="title-sect text-center">Bakery Co</h3></div>
                 
                 <!-- Login form starts here--> 

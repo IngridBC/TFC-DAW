@@ -15,7 +15,7 @@
         if($file_name != ""){
 
             //Image avalaible --> Remove it 
-            $path="../images/food/".$file_name;
+            $path="../images-videos/food/".$file_name;
 
             //Remove the image 
             $remove=unlink($path);

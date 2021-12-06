@@ -87,7 +87,7 @@
                             $file_name="Food_category_".rand(00,99).'.'.$ext;
 
                             $source_path=$_FILES['image']['tmp_name'];
-                            $image_folder = "../images/category/";
+                            $image_folder = "../images-videos/category/";
                             $movefile=move_uploaded_file($source_path, $image_folder .$file_name);
 
                             if($movefile==false){
