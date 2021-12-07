@@ -48,42 +48,13 @@
         $headers="From: ".$mailFrom;
         $txt="You have received an e-mail from ".$mailFrom.".\n\n".$message;
 
-        mail($mailTo,$subject,$txt,$headers);
-
-
-        //$mail = mail($mailTo,$subject,$message,$headers);
-
-        //if($mail){
-        //    echo "<script> alert ('Mail send.' ); </script>";
-        //}else{
-        //    echo "<script> alert ('Mail not send.' ); </script>";
-        //}
-
-        //https://www.youtube.com/watch?v=IjA4CDGebYE
-        //https://www.youtube.com/watch?v=GoDzNLNO7Nc
-        //echo $name_contact;
-        //die ();
-                   
-
-        //create query and save it
-        //$sql_insert= "INSERT INTO tbl_order SET food='$order_food', price=$price, qty=$order_qty, total=$total_price, 
-        //order_date='$order_date', status='$status', customer_name='$customer_name', customer_contact='$customer_contact', 
-        //customer_email='$customer_email', customer_adress='$customer_adress'";
-
-        //echo $sql_insert; 
-        //die();
-        //execute query
-        //$res_insert= mysqli_query($con,$sql_insert);
-
-        //check if the query is executed succesfully
-        //if($res_insert==true){
-        //    $_SESSION['order']="<div class='success text-center'> Food ordered succesfully. </div>";
-        //    header('location:'.SITEURL);
-        //}else{
-        //    $_SESSION['order']="<div class='error text-center'> Food ordered succesfully. </div>";
-        //    header('location:'.SITEURL);
-        //}  
-    } 
+        $mail=mail($mailTo,$subject,$txt,$headers);
+        if($mail){
+            echo "<script> alert ('Mail send.' ); </script>";
+        }else{
+            echo "<script> alert ('Mail not send.' ); </script>";
+        }
+    }    
 ?>
     <!-- fOOD sEARCH Section Ends Here -->
 

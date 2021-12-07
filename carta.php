@@ -69,7 +69,7 @@
                                         <p class="food-price"><?php echo $price;?>€</p>
                                         <p class="food-detail"><?php echo $description;?></p>
 
-                                        <a href="<?php echo SITEURL;?>order.php?food_id=<?php echo $id;?>" class="button-order">Order Now</a>
+                                        <a href="<?php echo SITEURL;?>order.php?food_id=<?php echo $id;?>" class="button-order">Comprar</a>
                                     </div>
                                 </div>
                             <?php

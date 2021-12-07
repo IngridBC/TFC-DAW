@@ -127,49 +127,7 @@
     <!-- about us section ends  -->
 
     <!-- testimonials section ends  -->
-
-    <!--
-    <div class="testimony-section">
-        <div class="title-testimony"><h2 class=" text-center">Nuestros clientes nos recomiendan</h2></div>
-            <div class="slider ">
-                <li><div class="card">
-                        <p>De los mejores postres que he probado. 
-                            <br>Totalmente los recomiendo</p>
-                        <div class="title-card">Helena Castro</div>
-                        <div class="sub-title">Cliente</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <p>Novedades todos los meses. 
-                            <br>siempre hay algo nuevo por probar</p>
-                        <div class="title-card">Pablo Gil</div>
-                        <div class="sub-title">Cliente</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <p>Ha sido uno de los mejores sitios en los que he estado.
-                            <br> Volveré a ir nuevamente.
-                        </p>
-                        <div class="title-card">Cristina fernandéz</div>
-                        <div class="sub-title">Cliente</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <p>
-                            Me ha gustado el sitio y todo lo que venden.
-                            <br>Repetiré de nuevo.
-                        </p>
-                        <div class="title-card">Manuel López</div>
-                        <div class="sub-title">Cliente</div>
-                    </div>
-                </li>
-            </div>                 
-    </div>
-            -->
-
+    
     <div class="testimony-section">
         <div class="title-testimony"><h2 class=" text-center">Nuestros clientes nos recomiendan</h2></div>
          <div class="slider owl-carousel">
@@ -202,7 +160,6 @@
          </div>       
     </div>    
 
-        
     <!-- testimonials section ends  -->
 
     <!-- contact button section ends  -->
@@ -211,7 +168,6 @@
             <a href="<?php echo SITEURL;?>contacto.php">Conocenos</a>
         </div>
     </div>
-
     <!-- contact button section ends  
 
 <?php include('user/partials-front/footer-user.php');?>
