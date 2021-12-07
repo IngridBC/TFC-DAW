@@ -50,11 +50,11 @@
                                         if($file_name != ""){
                                             //display image 
                                             ?>
-                                                <img src="<?php echo SITEURL;?>images-videos/food/<?php echo $file_name;?>" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                                                <img src="<?php echo SITEURL;?>images-videos/food/<?php echo $file_name;?>" class="img-responsive img-curve">
                                             <?php
                                         }else{
                                                 //if the message is not available
-                                                echo "<div class='error'>Image not avalaible. </div>";
+                                                echo "<div class='error'>Imagen no disponible. </div>";
                                         }
                                     ?>
                                 </div>
@@ -71,7 +71,7 @@
                         <?php
                     }
                 }else{
-                    echo "<div class='error'> Food not found </div>";
+                    echo "<div class='error'> Producto no encontrado </div>";
                 }
             ?>
             <div class="clearfix"></div>            

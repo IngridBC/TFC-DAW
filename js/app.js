@@ -36,8 +36,6 @@ btns.forEach((btn,i)=>{
 
 /*-------------COUNTER--------- */
 
-app.use("/js", express.static('./js/'));
-
 jQuery(document).ready(function( $ ){
     $('.time-counter').counterUp({
         delay:10,
@@ -47,10 +45,11 @@ jQuery(document).ready(function( $ ){
 
 
 /*-------------SLIDER CAROUSEL TESTIMONIES--------- */
-
+/*
 $(".slider").owlCarousel({
     loop:true,
     autoplay:true,
     autoplayTimeout:2000,
     autoplayHoverPause:true
 });
+*/

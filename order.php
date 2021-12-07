@@ -123,10 +123,10 @@
 
                     //check if the query is executed succesfully
                     if($res_insert==true){
-                        $_SESSION['order']="<div class='success text-center'> Food ordered succesfully. </div>";
+                        $_SESSION['order']="<div class='success text-center'> Pedido Realizado. </div>";
                         header('location:'.SITEURL);
                     }else{
-                        $_SESSION['order']="<div class='error text-center'> Food ordered succesfully. </div>";
+                        $_SESSION['order']="<div class='error text-center'> Pedido no realizado. </div>";
                         header('location:'.SITEURL);
                     }  
                 }

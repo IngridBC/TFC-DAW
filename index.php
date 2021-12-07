@@ -49,7 +49,7 @@
                                             <?php
                                         }else{
                                             //if the message is not available
-                                            echo "<div class='error'>Image not avalaible. </div>";
+                                            echo "<div class='error'>Imagen no disponible. </div>";
                                         }
                                     ?>
                                     <h3 class="float-text text-center"><?php echo $title;?></h3>
@@ -126,14 +126,27 @@
     </div>
     <!-- about us section ends  -->
 
-    <!-- testimonials section ends  -->
-    
-    <div class="testimony-section">
+    <!-- testimonials section ends  
+    <div class="testimony">
         <div class="title-testimony"><h2 class=" text-center">Nuestros clientes nos recomiendan</h2></div>
-         <div class="slider owl-carousel">
+        <div class="slider ">
             <div class="card">
                 <p>De los mejores postres que he probado. 
-                    <br>Totalmente los recomiendo</p>
+                    <br>Totalmente los recomiendo
+                </p>
+                <div class="title-card">Helena Castro</div>
+                <div class="sub-title">Cliente</div>
+            </div>
+           
+    </div>
+
+    <div class="testimony-section">
+        <div class="title-testimony"><h2 class=" text-center">Nuestros clientes nos recomiendan</h2></div>
+         <div class="slider owl-carousel ">
+            <div class="card">
+                <p>De los mejores postres que he probado. 
+                    <br>Totalmente los recomiendo
+                </p>
                 <div class="title-card">Helena Castro</div>
                 <div class="sub-title">Cliente</div>
             </div>
@@ -159,6 +172,7 @@
             </div>
          </div>       
     </div>    
+    -->
 
     <!-- testimonials section ends  -->
 

@@ -50,9 +50,9 @@
 
         $mail=mail($mailTo,$subject,$txt,$headers);
         if($mail){
-            echo "<script> alert ('Mail send.' ); </script>";
+            echo "<script> alert ('Correo enviado.' ); </script>";
         }else{
-            echo "<script> alert ('Mail not send.' ); </script>";
+            echo "<script> alert ('Correo no enviado.' ); </script>";
         }
     }    
 ?>
