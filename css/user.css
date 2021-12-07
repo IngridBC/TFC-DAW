@@ -205,7 +205,7 @@
 .ftco-footer {
   width: 100%;
   font-size: 14px;
-  background: #141313;
+  background: #0c0c0c;
   padding: 50px 0 10px 0px;
 }
 
@@ -532,29 +532,34 @@
 }
 
 /**------- SECTION TESTIMONIES------*/
-.testimony-section{
+.testimony{
   width: 100%;
+  height: 300px;
+  margin-bottom: 5%;
   background-color:#000 ;
 }
 
 .title-testimony{
-  margin-top: 10px;
-  color: #fff;
+  
+  padding-top: 10px;
+  color: #000;
   line-height: 100px;
   
 }
 
 .slider{
   width: 100%;
-  height: auto;
-  align-items: center;
+  height: 300px;
+  border: 3px solid purple;
+  
   background-color:#000 ;
-  display: flex;
+  
+  
   padding: 2%;
 }
 
 .slider .card{
-  flex:1;
+  
   margin:0 10px;
   text-align: justify;
   padding: 1%;
