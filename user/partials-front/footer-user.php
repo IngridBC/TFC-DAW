@@ -79,17 +79,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="../../js/app.js"> </script>
 
- <script src="../../js/jquery-migrate-3.0.1.min.js"></script>
- <script src="../../js/bootstrap.min.js"></script>
- <script src="../../js/jquery.waypoints.min.js"></script>
- <script src="../../js/jquery.stellar.min.js"></script>
- <script src="../../js/owl.carousel.min.js"></script>
- <script src="../../js/jquery.magnific-popup.min.js"></script>
- <script src="../../js/aos.js"></script>
- <script src="../../js/jquery.animateNumber.min.js"></script>
- <script src="../../js/bootstrap-datepicker.js"></script>
- <script src="../../js/jquery.timepicker.min.js"></script>
- <script src="../../js/scrollax.min.js"></script>
  -->
 
 </body>
