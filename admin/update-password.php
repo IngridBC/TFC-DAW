@@ -97,6 +97,5 @@
         //redirect to manage admin-- > showing properly mesage 
     }        
 ?>  
-
 <?php include ('partials/footer.php'); ?>
 

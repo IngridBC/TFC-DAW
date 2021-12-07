@@ -94,7 +94,7 @@ if(isset($_GET['id'])){
                         <td clospan="2">
                             <input type="hidden" name="id" value="<?php echo $id;?>">
                             <input type="hidden" name="price" value="<?php echo $price;?>">
-                            <input type="submit" name="submit" value="Update Order" class="btn-secondary">
+                            <input type="submit" name="submit" value="Modificar" class="btn-secondary">
                         </td>
 
                     </tr>
